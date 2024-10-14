@@ -1,0 +1,6 @@
+name: Reloaded-AWS-Stop
+version: "${project.version}"
+main: fr.reloaded.aws.AWSStop
+author: Lastril
+website: "https://discord.gg/w5YE4Adc77"
+description: "${project.description}"
