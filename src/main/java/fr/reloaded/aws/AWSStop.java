@@ -24,6 +24,7 @@ public class AWSStop extends JavaPlugin {
 
     @Override
     public void onDisable() {
+        saveDefaultConfig();
         String accessKeyId = this.getConfig().getString("AWS_ACCESS_KEY_ID");
         String secretAccessKey = this.getConfig().getString("AWS_SECRET_ACCESS_KEY");
         AwsBasicCredentials awsCredentials = AwsBasicCredentials.create(accessKeyId, secretAccessKey);
